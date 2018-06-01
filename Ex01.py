@@ -13,8 +13,8 @@ def powerSet(items):
 
 items = ['1', '10', '100', '1,000', '10,000']
 
-result = powerset(items)
-for i in range(2**N):
+result = powerSet(items)
+for i in range(2**len(items)):
     print(next(result))
 
 def yieldAllCombos(items):
@@ -27,7 +27,7 @@ def yieldAllCombos(items):
     for i in range(3**N):
         bag1 = []
         bag2 = []
-        for j in range
+        #for j in range
         
 
 #result = yieldAllCombos(items)
